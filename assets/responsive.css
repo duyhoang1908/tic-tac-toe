@@ -1,0 +1,119 @@
+@media (max-width:320px){
+    .root{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .description{
+        margin-top: 20px;
+    }
+    .description-heading {
+        font-size: 35px;
+    }
+    .description-text {
+        font-size: 20px;
+    }
+    .reset-btn {
+        margin-top: 20px;
+    }
+    .play-screen{
+        justify-content: center;
+    }
+    .col{
+        width: 95px;
+        height: 95px;
+        line-height: 95px;
+        font-size: 35px;
+    }
+    .box{
+        width: 300px;
+        height: 200px;
+    }
+    .box-body h1{
+        font-size: 25px;
+    }
+    .box-body h2{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:321px) and (max-width:400px){
+    .root{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .description{
+        margin-top: 20px;
+    }
+    .reset-btn{
+        margin-top: 20px;
+    }
+    .play-screen{
+        justify-content: center;
+    }
+    .col{
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
+        font-size: 40px;
+    }
+    .box{
+        width: 350px;
+        height: 250px;
+    }
+    .box-body h1{
+        font-size: 25px;
+    }
+    .box-body h2{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:401px) and (max-width:599px){
+    .root{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .description{
+        margin-top: 20px;
+    }
+    .play-screen{
+        justify-content: center;
+    }
+    .col{
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
+        font-size: 50px;
+    }
+    .box-body h1{
+        font-size: 25px;
+    }
+    .box-body h2{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:600px) and (max-width:769px){
+    .root{
+        flex-direction: column;
+        padding: 10px 0 20px 0;
+    }
+    .description{
+        margin-top: 20px;
+    }
+    .play-screen{
+        justify-content: center;
+    }
+    .col{
+        width: 170px;
+        height: 170px;
+        line-height: 170px;
+        font-size: 50px;
+    }
+    .box-body h1{
+        font-size: 30px;
+    }
+    .box-body h2{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/responsive.css">
+</head>
+<body>
+    <div class="root">
+        <div class="description">
+            <h1 class="description-heading">Welcome to my website</h1>
+            <p class="description-text">Let's play together</p>
+            <p class="description-text">Hope you have a good time</p>
+            <button class="reset-btn btn">Play again</button>
+        </div>
+        <div class="play-screen">
+            <div class="row">
+                <div class="col" value = "0"></div>
+                <div class="col" value = "3"></div>
+                <div class="col" value = "6"></div>
+            </div>
+            <div class="row">
+                <div class="col" value = "1"></div>
+                <div class="col" value = "4"></div>
+                <div class="col" value = "7"></div>
+            </div>
+            <div class="row">
+                <div class="col" value = "2"></div>
+                <div class="col" value = "5"></div>
+                <div class="col" value = "8"></div>
+            </div>
+        </div>
+
+        <div class="modal">
+            <div class="box win-box">
+                <div class="box-body">
+                    <h1>Congratulations !</h1>
+                    <h2 class="winner-text">Player X is the winner</h2>
+                    <button class="close-btn btn">Play again</button>
+                </div>
+            </div>
+            <div class="box tie-box">
+                <div class="box-body">
+                    <h1>Draw match !</h1>
+                    <h2>You are great</h2>
+                    <button class="close-btn btn">Play again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/main.js"></script>
+    <script src="/assets/game.js"></script>
+</body>
+</html>
